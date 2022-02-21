@@ -1,0 +1,192 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+input{
+  -webkit-appearance: none;
+  border-radius: 0;
+  font-size: 14px;
+  border: 0;
+  padding: 0;
+  background: none;
+
+}
+input::-webkit-input-placeholder{
+  color: $T5;
+}
+
+input::-moz-placeholder{
+
+}
+input:-ms-input-placeholder{
+
+}
+textarea::-webkit-input-placeholder{
+
+}
+
+textarea::-moz-placeholder{
+
+}
+
+textarea:-ms-input-placeholder{
+
+}
+input[type=number] {
+
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+textarea {
+  -webkit-appearance: none;
+  resize:none;
+  outline: none;
+  font-size: 14px;
+  box-sizing: border-box;
+
+  line-height: 1.5;
+}
+body {
+  line-height: 1.5;
+  font-size: 14px;
+  position: relative;
+  -webkit-text-size-adjust:none;
+  font-family: "robotoregular","PingFang SC","Hiragino Sans GB","Heiti SC","Microsoft YaHei","WenQuanYi Micro Hei","Helvetica","Arial","monospace","serif";
+  min-width: 1340px;
+  min-height: 100vh;
+  background-color:$BG ;
+}
+a{
+  text-decoration:none;
+  transition: all 0.3s;
+}
+a:hover{
+  color:#fff
+}
+div, article, section, span, p, ul, li, input, footer{
+  box-sizing: border-box;
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+ol, ul, li {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;border-spacing: 0;
+}
+
+.mr_10{
+  margin-right: 10px;
+}
+
+.mr_5{
+  margin-right: 5px;
+}
+
+.w1340{
+  width: 1340px;
+  margin: 0 auto;
+}
+
+.color_T1{
+  color: $T1;
+}
+
+.color_T2{
+  color: $T2;
+}
+
+.color_T3{
+  color: $T3;
+}
+
+.color_T4{
+  color: $T4;
+}
+
+.color_T5{
+  color: $T5;
+}
+
+.color_T8{
+  color: $T8;
+}
+
+.BG_FFF{
+  background-color: $FFF;
+}
+
+.cur_po{
+  cursor: pointer;
+}
+
+.tx_r{
+  text-align: right;
+}
+
+.tx_cen{
+  text-align: center;
+}
+
+.mb_5{
+  margin-bottom: 5px;
+}
+
+.mt_40{
+  margin-top: 40px;
+}
+
+.mt_20{
+  margin-top: 20px;
+}
+
+
+.com_nodata_box{
+  text-align: center;
+  font-size: 14px;
+  color: $T5;
+  padding: 30px 0;
+  .icon_nodata{
+    width: 130px;
+    height: 130px;
+    background-image: url("./assets/img/icon/nodata.png");
+    background-size: cover;
+    margin-bottom: 20px;
+  }
+}
